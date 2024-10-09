@@ -27,7 +27,8 @@ class InferlessPythonModel:
     def infer(self, inputs):
         audio_url = inputs["audio_url"]
         result = self.pipe(audio_url)
-        print(result["text"])
+        
+        return {"transcribed_output":result["text"]}
 
     def finalize(self):
         self.pipe = None
