@@ -40,6 +40,6 @@ optional:
   input_file_name: input.json
   output_file_name: output.json
   runtime_file_name: inferless-runtime-config.yaml
-model_url: https://github.com/inferless/Whisper-large-v3-turbo.git
+model_url: https://github.com/rbgo404/Whisper-large-v3-turbo.git
 provider: GITHUB
 io_schema: true
