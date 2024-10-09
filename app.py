@@ -1,3 +1,6 @@
+import torch
+from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
+
 class InferlessPythonModel:
         
     def initialize(self):
